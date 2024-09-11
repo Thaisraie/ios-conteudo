@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Carro</title>
+</head>
+
+<body>
+    <form action="#">
+
+        <fieldset>
+            <legend>Cadastro Cliente</legend>
+            <label for="">Nome:</label>
+            <input type="text"> <br><br>
+            <label for="">Email:</label>
+            <input type="text"> <br><br>
+            <label for="">Contato:</label>
+            <input type="number" name="" id="">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Informações extras:</legend>
+            <br>
+            <select name="listaCarro" id="listaCarro">
+                <option value="evoque" disabled selected hidden>Selecione</option>
+                <option value="evoque">Evoque</option>
+                <option value="celta">Celta</option>
+                <option value="jetta">Jetta</option>
+                <option value="hb20">Hb20</option>
+                <option value="mercedes">Mercedes GLE</option>
+            </select>
+            <p>Região</p>
+
+            <input autocomplete="on" list="regiao" placeholder="Ex: São Paulo">
+            <datalist id="regiao">
+                <option value="São Paulo"></option>
+                <option value="Juquitiba"></option>
+                <option value="Parana"></option>
+            </datalist>
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <legend>Exemplo de Range e Output:</legend>
+            0
+            <input type="range" name="ss" id="tst">
+            100
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <legend>Sua opinião:</legend>
+            <br>
+            <textarea name="feedback" id="feedback" cols="30" rows="20" required minlength="100"
+                maxlength="150">Insira seu Feedback aqui.</textarea>
+        </fieldset>
+
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>

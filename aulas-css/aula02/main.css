@@ -1,4 +1,8 @@
 .titulo {
+    color: yellow;
+}
+
+.sombra{
     filter: drop-shadow(5px 5px 5px #000);
 }
 
@@ -19,5 +23,5 @@
 }
 
 #paragrafo {
-    background-color: #000;
+    background-color: #585858;
 }

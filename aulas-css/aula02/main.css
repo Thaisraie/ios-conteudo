@@ -1,0 +1,23 @@
+.titulo {
+    filter: drop-shadow(5px 5px 5px #000);
+}
+
+.italico {
+    font-style: italic;
+}
+
+#ola {
+    color: red;
+}
+
+#alo {
+    color: yellow;
+}
+
+#eai {
+    color: blue;
+}
+
+#paragrafo {
+    background-color: #000;
+}

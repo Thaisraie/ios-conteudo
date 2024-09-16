@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+}
+
+.primeiro {
+    color: #fff;
+    background-color: #3d3d46;
+    border-top: dotted 5px rgb(165, 0, 91);
+    padding: 20px 20px 25px 20px;
+    border-left: solid 5px rgb(165, 0, 91);
+    border-right: solid 5px rgb(165, 0, 91);
+    width: 40%;
+}
+
+.paragrafo {
+    color: #fff;
+    background-color: #3d3d46;
+    border: 10px;
+    border-bottom: solid 15px rgb(165, 0, 91);
+    border-left: solid 5px rgb(165, 0, 91);
+    border-right: solid 5px rgb(165, 0, 91);
+    padding: 0px 20px 25px 20px;
+    width: 40%;
+} 
+
+
+h2 {
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 8px;
+}
+
+a {
+    background-color: rgb(165, 0, 91);
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+}
+
+/* button {
+    background-color: rgb(165, 0, 91);
+    color: #fff;
+    padding: 8px;
+    border: none;
+} *

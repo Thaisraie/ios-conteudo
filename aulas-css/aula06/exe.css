@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Inria Sans", sans-serif;
+}
+
+nav {
+    background-color: #280000;
+}
+
+.centraliza {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 15px;  
+}
+
+.box {
+    display: flex;
+    color: #ffff;
+}
+
+.logo-img {
+    width: 40px;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+.texto-nav {
+    color: #DCF763;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box1 {
+    padding-right: 60px;
+}
+
+.icon-face {
+    width: 20px;
+    height: auto;
+    padding-right: 25px;
+}
+
+.icon-twitter {
+    width: 20px;
+    height: auto;
+    padding-right: 25px;
+
+}
+
+.icon-google {
+    width: 20px;
+    height: auto;
+    padding-right: 25px;
+    
+}
+

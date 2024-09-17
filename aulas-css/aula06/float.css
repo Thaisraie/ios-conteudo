@@ -1,0 +1,17 @@
+* {
+    margin: 2em;
+}
+
+.container {
+    border: solid 1px red;
+    overflow: auto;
+}
+
+img {
+    border: solid 1px red;
+    float: left;
+}
+
+.par2 {
+    clear: left;
+}

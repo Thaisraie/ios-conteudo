@@ -1,0 +1,29 @@
+* {
+    width: 100%;
+    text-align: center;
+    border: solid 2px #EF767A;
+}
+
+.div {
+    margin: 10px;
+    width: 25vw;
+}
+
+.primeiro {
+    float: left;
+}
+
+.segundo {
+    float: right;
+}
+
+img {
+    border: dotted 4px #7D7ABC;
+    width: 650px;
+    height: 650px;
+}
+
+
+
+
+

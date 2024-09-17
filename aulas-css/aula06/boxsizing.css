@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    height: 250px;
+    width: 250px;
+    border: dotted 1px #565857;
+    margin: 0.5em;
+}
+
+.caixa1 {
+    box-sizing: content-box;
+    font-size: 2em;
+    padding: 30px;
+    border: groove 10px #BCBDC0;
+}
+
+.caixa2 {
+    box-sizing: border-box;
+    font-size: 2em;
+    padding: 30px;
+    border: groove 10px #F5D3C8;
+}

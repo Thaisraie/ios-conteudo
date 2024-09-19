@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
-    font-family: "Inria Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 nav {
@@ -12,8 +12,8 @@ nav {
 .centraliza {
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 15px;  
+    padding-top: 13px;
+    padding-bottom: 18px;  
 }
 
 .box {
@@ -21,15 +21,25 @@ nav {
     color: #ffff;
 }
 
+.titulo-box {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.box > h2 {
+    font-size: 18px;
+}
+
 .logo-img {
-    width: 40px;
-    padding-left: 25px;
-    padding-right: 15px;
+    width: 32px;
+    padding-left: 18px;
+    padding-right: 10px;
 }
 
 .texto-nav {
     color: #DCF763;
-    padding-left: 10px;
+    padding-left: 8px;
 }
 
 a {
@@ -37,26 +47,93 @@ a {
 }
 
 .box1 {
-    padding-right: 60px;
+    padding-right: 35px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .icon-face {
-    width: 20px;
+    width: 16px;
     height: auto;
-    padding-right: 25px;
+    padding-right: 32px;
 }
 
 .icon-twitter {
-    width: 20px;
+    width: 16px;
     height: auto;
     padding-right: 25px;
 
 }
 
 .icon-google {
-    width: 20px;
+    width: 16px;
     height: auto;
-    padding-right: 25px;
+    padding-left: 10px;
     
 }
+
+.principal {
+    display: flex;
+}
+
+.container {
+    background-color: rgb(237, 238, 240);
+    height: 100vh;
+    width: 240px;
+}
+
+.titulo {
+    font-weight: 400;
+    color: rgb(51, 49, 49);
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.subtitulo {
+    margin-left: 60px;
+    font-weight: 400;
+    color: rgb(65, 213, 233);
+    margin-top: 30px;
+    font-size: 16px;
+    display: inline;
+}
+
+.mensagem {
+    font-weight: 200;
+    margin-left: 70px;
+    margin-top: 30px;
+    font-size: 16px;
+    display: inline;
+}
+
+.conteudo {
+    display: flex;
+    width: 50%;
+}
+
+.watch {
+
+}
+
+.botao {
+    background-color: rgb(243, 74, 7);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    width: 150px;
+}
+
+.botao > a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 10px;
+}
+
+
+
 

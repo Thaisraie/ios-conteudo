@@ -75,7 +75,10 @@ a {
 .principal {
     display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 68f85e72b99db378828bf7d29b3c77dea7d8be70
 =======
 >>>>>>> 68f85e72b99db378828bf7d29b3c77dea7d8be70
 }
@@ -84,7 +87,11 @@ a {
     background-color: rgb(237, 238, 240);
     height: 100vh;
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 180px;
+=======
+    width: 240px;
+>>>>>>> 68f85e72b99db378828bf7d29b3c77dea7d8be70
 =======
     width: 240px;
 >>>>>>> 68f85e72b99db378828bf7d29b3c77dea7d8be70
@@ -94,6 +101,7 @@ a {
     font-weight: 400;
     color: rgb(51, 49, 49);
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-bottom: 50px;
 }
 
@@ -102,6 +110,8 @@ a {
     color: rgb(65, 213, 233);
     font-size: 16px;
 =======
+=======
+>>>>>>> 68f85e72b99db378828bf7d29b3c77dea7d8be70
     margin-left: 70px;
     margin-top: 50px;
 }
@@ -113,19 +123,28 @@ a {
     margin-top: 30px;
     font-size: 16px;
     display: inline;
+<<<<<<< HEAD
+>>>>>>> 68f85e72b99db378828bf7d29b3c77dea7d8be70
+=======
 >>>>>>> 68f85e72b99db378828bf7d29b3c77dea7d8be70
 }
 
 .mensagem {
     font-weight: 200;
 <<<<<<< HEAD
+<<<<<<< HEAD
     font-size: 16px;
     margin-top: 50px;
 =======
+=======
+>>>>>>> 68f85e72b99db378828bf7d29b3c77dea7d8be70
     margin-left: 70px;
     margin-top: 30px;
     font-size: 16px;
     display: inline;
+<<<<<<< HEAD
+>>>>>>> 68f85e72b99db378828bf7d29b3c77dea7d8be70
+=======
 >>>>>>> 68f85e72b99db378828bf7d29b3c77dea7d8be70
 }
 
@@ -135,11 +154,14 @@ a {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .info {
     margin-left: 70px;
     margin-top: 50px;
 }
 
+=======
+>>>>>>> 68f85e72b99db378828bf7d29b3c77dea7d8be70
 =======
 >>>>>>> 68f85e72b99db378828bf7d29b3c77dea7d8be70
 .watch {
@@ -158,9 +180,12 @@ a {
     font-size: 12px;
     width: 150px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-top: 50px;
     margin-left: 70px;
     margin-top: 50px;
+=======
+>>>>>>> 68f85e72b99db378828bf7d29b3c77dea7d8be70
 =======
 >>>>>>> 68f85e72b99db378828bf7d29b3c77dea7d8be70
 }
@@ -171,9 +196,15 @@ a {
     padding-left: 10px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 68f85e72b99db378828bf7d29b3c77dea7d8be70
 
 
 
 
+<<<<<<< HEAD
+>>>>>>> 68f85e72b99db378828bf7d29b3c77dea7d8be70
+=======
 >>>>>>> 68f85e72b99db378828bf7d29b3c77dea7d8be70

@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p::before {
+    content: "💋";
+}
+
+h2::after {
+    content: "🍩";
+}
+
+h3::first-line {
+    font-size: 200%;
+    color: #BDBBB0
+}

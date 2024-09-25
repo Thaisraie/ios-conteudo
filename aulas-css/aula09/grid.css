@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+}
+
+.container {
+    margin: 2px auto;
+    height: 800px;
+    width: 800px;
+    background-color: #EFE9AE;
+    display: flex;
+/* Alinhamento com o main axis  */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: row;  */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* Mudar a orientação do main axis (elementos de tela) */
+    /* direction: rtl; */
+    /* direction: ltr; */
+
+/* Alinhamento com o main axis padrão */
+    /* justify-content: flex-end; */
+    /* justify-content: end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around;  */
+    /* justify-content: center; */
+
+/* Controla a quebra de elementos no container */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* flex-flow - flex-direction + flex-wrap:  */
+    /* flex-flow: column-reverse nowrap; */
+    /* flex-direction: column-reverse;
+    flex-wrap: nowrap; */
+
+/* Alinhamento com o cross axios */
+    /* align-items: baseline; */
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: stretch; */
+}
+
+.box {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.c1 {
+    background-color: #FF928B;
+    /* order: 1; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    align-self: flex-end;
+    
+}
+
+.c2 {
+    background-color: #FFAC81;
+    /* order: 1; */
+    /* flex-grow: 1; */
+}
+
+.c3 {
+    background-color: #CDEAC0;
+    /* order: 3; */
+    /* flex-grow: 2; */
+}
+

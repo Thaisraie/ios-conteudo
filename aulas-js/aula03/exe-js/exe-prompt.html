@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilize os conceitos</title>
+</head>
+<body>
+    <script>
+
+        // Exercício 2
+
+        let nome = prompt("Olá, digite seu nome: ");
+        let idade = Number(prompt("Qual a sua idade? "));
+        let bairro = prompt("Digite o bairro onde mora: ");
+
+        let nomeMaiusculo = nome.toUpperCase();
+
+        let num1 = Number(prompt(`${nomeMaiusculo}, digite dois números inteiros. \n\nSendo o primeiro: `));
+        let num2 = Number(prompt(`Digite o segundo número: `));
+
+        let soma = num1 + num2;
+
+        alert(`A soma do número: ${num1} e ${num2} \n\né: ${soma}`);
+
+        // Exercício 5
+
+        let nota1 = Number(prompt("Digite a primeira nota: "));
+        let nota2 = Number(prompt("Digite a segunda nota: "));
+
+        let media = (nota1 + nota2) / 2;
+
+        let res = media >= 6 ? "Aluno aprovado!" : "Aluno reprovado!";
+
+        alert(res);
+
+    </script>
+</body>
+</html>

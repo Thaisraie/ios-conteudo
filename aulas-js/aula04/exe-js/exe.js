@@ -118,31 +118,38 @@ console.log(`O Resultado da operação: ${operacao}, é: ${res}`);
 
 console.log("\n************************ Exercício 8 ************************");
 
-let valorProduto = 1000;
+let valor = 1000;
 let cupom = "DESC2";
 let desconto;
 
 switch (cupom) {
     case "DESC1":
-        valorProduto - (desconto * valorProduto);
+        desconto = valor - (0.05 * valor);
+        console.log(`5% de desconto aplicado! \nValor do produto original: ${valor.toFixed(2)}, valor com desconto: ${desconto.toFixed(2)}`);
         break;
     case "DESC2":
-        valorProduto - (desconto * valorProduto);
+        desconto = valor - (0.1 * valor);
+        console.log(`10% de desconto aplicado! \nValor do produto original: ${valor.toFixed(2)}, valor com desconto: ${desconto.toFixed(2)}`);
         break;
     case "DESC3": 
-        valorProduto - (desconto * valorProduto);
+        desconto = valor - (0.15 * valor);
+        console.log(`15% de desconto aplicado! \nValor do produto original: ${valor.toFixed(2)}, valor com desconto: ${desconto.toFixed(2)}`);
         break;
     case "DESC4": 
-        valorProduto - (desconto * valorProduto);
+        desconto = valor - (0.2 * valor);
+        console.log(`20% de desconto aplicado! \nValor do produto original: ${valor.toFixed(2)}, valor com desconto: ${desconto.toFixed(2)}`);
         break;
     case "DESC5": 
-        valorProduto - (desconto * valorProduto);
+        desconto = valor - (0.25 * valor);
+        console.log(`25% de desconto aplicado! \nValor do produto original: ${valor.toFixed(2)}, valor com desconto: ${desconto.toFixed(2)}`);
         break;
     default:
             console.log("ERRO! O Cupom aplicado não é válido.");
             break;
     }
-    console.log(`O Valor original do produto é: ${valorProduto.toFixed(2)}, valor com desconto é: `);
+
+    console.log("\n**************************************************************\n");
+
     
 
 

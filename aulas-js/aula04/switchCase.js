@@ -1,5 +1,3 @@
-
-
 let atendimento = 1;
 
 switch (atendimento) {
